@@ -1,6 +1,6 @@
 # sysupd.sh
 <details type="reasoning" done="true" duration="6">
-<summary>Thought for 6 seconds</summary>
+
 > Okay, so the user has provided a bash script that updates Arch packages and AUR packages using yay. They want documentation for this script, which makes sense because when you write scripts, especially ones that perform system operations, it's important to have clear documentation for users.
 > 
 > First, I need to understand what the script does. It starts with a greeting asking if they want to perform system updates. Then, based on the user's input (Y or y), it runs `sudo pacman -Syu` to update system packages and `yay -Syu` to update AUR packages. If the user doesn't agree, it just shows system info using neofetch.
